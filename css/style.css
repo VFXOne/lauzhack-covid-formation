@@ -10829,6 +10829,7 @@ textarea.form-control {
   background: #000000;
   padding: 7em 0;
   z-index: 0;
+  height: 20%;
 }
 .ftco-footer .ftco-footer-logo {
   text-transform: uppercase;
