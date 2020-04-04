@@ -1,2 +1,0 @@
-# lauzhack-covid-formation
-Bla
