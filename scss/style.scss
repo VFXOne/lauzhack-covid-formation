@@ -1519,6 +1519,8 @@ textarea.form-control {
 	}
 	.owl-carousel{
 		margin: 0;
+		mouseDrag: false;
+		touchDrag: false;
 	}
 	.owl-carousel .owl-stage-outer{
 		padding-top: 0;

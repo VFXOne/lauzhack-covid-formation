@@ -10829,7 +10829,6 @@ textarea.form-control {
   background: #000000;
   padding: 7em 0;
   z-index: 0;
-  height: 20%;
 }
 .ftco-footer .ftco-footer-logo {
   text-transform: uppercase;
@@ -11015,6 +11014,8 @@ textarea.form-control {
 }
 .testimony-section .owl-carousel {
   margin: 0;
+  mouseDrag: false;
+  touchDrag: false;
 }
 .testimony-section .owl-carousel .owl-stage-outer {
   padding-top: 0;
