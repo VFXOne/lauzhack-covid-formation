@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 05/04/2020 08:05
+  	Creation date: 05/04/2020 08:21
   	*/
 
 @font-face {
@@ -30,10 +30,10 @@ font-style: normal;
 margin-left: 20px;
 }
 
-.flaticon-hand-wash:before { content: "\f100"; }
-.flaticon-gloves:before { content: "\f101"; }
-.flaticon-medical-mask:before { content: "\f102"; }
-.flaticon-shower-cap:before { content: "\f103"; }
-.flaticon-epi:before { content: "\f104"; }
-.flaticon-epi-1:before { content: "\f105"; }
-.flaticon-goggles:before { content: "\f106"; }
+.flaticon-gloves:before { content: "\f100"; }
+.flaticon-medical-mask:before { content: "\f101"; }
+.flaticon-shower-cap:before { content: "\f102"; }
+.flaticon-epi:before { content: "\f103"; }
+.flaticon-epi-1:before { content: "\f104"; }
+.flaticon-goggles:before { content: "\f105"; }
+.flaticon-hand-wash:before { content: "\f106"; }
