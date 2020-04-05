@@ -9613,12 +9613,15 @@ h1, h2, h3, h4, h5,
     margin-right: 0;
   }
 }
+.ftco-navbar-light .navbar-nav > .nav-item {
+  margin-right: -20px;
+}
 .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
   font-size: 16px;
   padding-top: 0.7rem;
   padding-bottom: 0.7rem;
   padding-left: 20px;
-  padding-right: 20px;
+  padding-right: 10px;
   color: #000000;
   font-weight: 400;
   opacity: 1 !important;
@@ -10042,6 +10045,7 @@ h1, h2, h3, h4, h5,
 @media (max-width: 767.98px) {
   .owl-carousel.home-slider .slider-item .slider-text h1 {
     font-size: 40px;
+    color: #B51F1F;
   }
 }
 .owl-carousel.home-slider .slider-item .slider-text p {
@@ -10596,7 +10600,7 @@ h1, h2, h3, h4, h5,
 }
 @media (min-width: 768px) {
   .ftco-services .nav-link-wrap {
-    margin-bottom: -60px;
+    margin-bottom: 90px;
     z-index: 1;
   }
 }
@@ -11000,7 +11004,7 @@ textarea.form-control {
 
 .testimony-section {
   position: relative;
-  background: #B51F1F;
+  background: rgba(181, 31, 31, 0.4);
 }
 .testimony-section .overlay {
   position: absolute;
@@ -11010,7 +11014,15 @@ textarea.form-control {
   bottom: 0;
   content: "";
   opacity: 0.7;
-  background: #232931;
+  color: #232931;
+  background: #FF0000;
+  background: -moz-linear-gradient(-45deg, #FF0000 0%, #B51F1F 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, #FF0000), color-stop(100%, #B51F1F));
+  background: -webkit-linear-gradient(-45deg, #FF0000 0%, #B51F1F 100%);
+  background: -o-linear-gradient(-45deg, #FF0000 0%, #B51F1F 100%);
+  background: -ms-linear-gradient(-45deg, #FF0000 0%, #B51F1F 100%);
+  background: linear-gradient(135deg, #FF0000 0%, #B51F1F 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#9ff669", endColorstr="#31de79", GradientType=1 );
 }
 .testimony-section .owl-carousel {
   margin: 0;

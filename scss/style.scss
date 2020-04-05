@@ -138,12 +138,13 @@ h1, h2, h3, h4, h5,
 			margin-right: 0;
 		}
 		> .nav-item {
+			margin-right: -20px;
 			> .nav-link {
 				font-size: 16px;
 				padding-top: .7rem;
 				padding-bottom: .7rem;
 				padding-left: 20px;
-				padding-right: 20px;
+				padding-right: 10px;
 				color: $black;
 				font-weight: 400;
 				opacity: 1!important;
@@ -562,7 +563,7 @@ h1, h2, h3, h4, h5,
 					}
 					@include media-breakpoint-down(sm) {
 						font-size: 40px;
-						// color: $pri;
+						color: $primary;
 					}
 				}
 				p {
@@ -1077,7 +1078,7 @@ h1, h2, h3, h4, h5,
 		background: $primary;
 		// @include gradient-background();
 		@include media-breakpoint-up(md){
-			margin-bottom: -60px;
+			margin-bottom: 90px;
 			z-index: 1;
 		}
 		@include media-breakpoint-down(sm){
@@ -1505,7 +1506,7 @@ textarea.form-control {
 //TESTIMONY
 .testimony-section{
 	position: relative;
-	background: $primary;
+	background: fade-out($primary, .6);
 	.overlay{
 		position: absolute;
 		top: 0;
@@ -1514,8 +1515,8 @@ textarea.form-control {
 		bottom: 0;
 		content: '';
 		opacity: .7;
-		background: $darken;
-		// @include gradient-background();
+		color: $darken;
+		@include gradient-background();
 	}
 	.owl-carousel{
 		margin: 0;
