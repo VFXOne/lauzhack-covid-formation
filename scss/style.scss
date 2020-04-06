@@ -11,7 +11,6 @@ $primary: #B51F1F;
 $secondary: #FF0000;
 
 
-
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
      -moz-border-radius: $radius;
@@ -1297,10 +1296,10 @@ textarea.form-control {
 
 
 .ftco-section {
-	padding: 7em 0;
+	//padding: 7em 0;
 	position: relative;
 	@include media-breakpoint-down(sm){
-		padding: 6em 0;
+		//padding: 6em 0;
 	}
 }
 
@@ -1462,6 +1461,7 @@ textarea.form-control {
 		font-size: 16px;
 		display: block;
 		margin-bottom: 5px;
+		padding-top: 20px;
 		text-transform: uppercase;
 		color: rgba(0,0,0,.3);
 		letter-spacing: 2px;
