@@ -42,6 +42,7 @@ for (n = 0; n < v.length; n++) {
   y.onclick = function() {
     var t = document.createElement("iframe");
     t.setAttribute("src", "https://www.youtube.com/embed/" + this.id + param(this) + "&autoplay=1");
+    t.setAttribute("allowfullscreen", "");
     t.style.width = this.style.width;
     t.style.height = this.style.height;
     this.parentNode.replaceChild(t, this);
