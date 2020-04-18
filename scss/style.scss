@@ -851,6 +851,41 @@ h1, h2, h3, h4, h5,
 	}
 }
 
+//COLLAPSIBLE taken from https://www.w3schools.com/howto/howto_js_collapsible.asp
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+	cursor: pointer;
+	margin: 18px;
+	width: 70%;
+	border: none;
+	text-align: center;
+	outline: none;
+	//font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.collapsible:active, .collapsible:hover {
+	background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.collapsible-content {
+	width: 100%;
+	padding: 0 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	background-color: #ccc;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+
+	a {
+		color: blue;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
 
 //PROJECT
 .project{
